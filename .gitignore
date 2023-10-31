@@ -8,7 +8,6 @@
 .buildlog/
 .history
 .svn/
-# *.env
 
 # IntelliJ related
 *.iml
@@ -45,6 +44,17 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-windows/flutter/generated_plugin_registrant.cc
-macos/Flutter/GeneratedPluginRegistrant.swift
-.dart_tool/package_config.json
+
+dev.jks
+prod.jks
+staging.jks
+
+GoogleService-Info*.plist
+google-services.json
+
+# dependecies lock files
+*.lock
+ios/build
+android/app/mnc_miners_key.jks
+.gitignore
+assets/doc/wildcard_mncgroup_com_prod.pem
