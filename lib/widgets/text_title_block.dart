@@ -7,8 +7,8 @@ class TextTitleBlock extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.fromLTRB(15, 11, 0, 11),
-      margin: EdgeInsets.symmetric(vertical: 16),
+      padding: const EdgeInsets.fromLTRB(15, 11, 0, 11),
+      margin: const EdgeInsets.symmetric(vertical: 16),
       width: double.maxFinite,
       color: Colors.blueAccent,
       child: Text(
